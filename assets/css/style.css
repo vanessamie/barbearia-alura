@@ -122,6 +122,7 @@ ul {
 }
 
 .video{
+    width: 50%;
     margin: 5rem auto;
     margin-bottom: 0;
     display: flex;
@@ -132,7 +133,7 @@ ul {
 
 /*---------- MAPA ------------*/
 #mapa{
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-inline: auto;
@@ -216,6 +217,9 @@ footer{
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+    .video{
+        width: 100%;
     }
     /*---------- MAPA ------------*/
     .mapa{

@@ -8,6 +8,11 @@ Site "Mie's Barber Shop", criado em alusão ao proposto "Barbearia Alura", duran
 - HTML5 e CSS3 parte 4: avançando no CSS.
 
 ##
+
+https://vanessamie.github.io/barbearia-alura
+
+##
+
 Conceitos aprendidos e aplicados:
 
 - O que é HTML;
