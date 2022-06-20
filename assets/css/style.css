@@ -21,9 +21,9 @@ header {
 
 nav {
 	position: absolute;
-	top: 3.5rem;
+	top: 3.6rem;
     right: 0rem;
-    left: 30%;
+    left: 33.37%;
 }
 
 nav li {
@@ -159,6 +159,18 @@ footer{
     color: whitesmoke;
 }
 
+/*----- COPYRIGHT -----*/
+.social-links {
+    display: flex;
+    width: 20%;
+    margin-inline: auto;
+    justify-content: space-between;
+}
+
+.git {
+	fill: #f5f5f5;
+}
+
 /*---------- RESPONSIVIDADE ------------*/
 
 @media screen and (max-width: 480px) {
@@ -175,11 +187,20 @@ footer{
         width: auto;
         margin: initial;
         padding: initial;
+        display: initial;
     }
-    /*---------- NAV ------------*/
-    nav{
+     /*---------- NAV ------------*/
+     nav{
         position: static;
         margin-inline: auto;
+        padding-inline: 3rem;
+    }
+
+    ul li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0.5rem;
     }
 
     .logo{
